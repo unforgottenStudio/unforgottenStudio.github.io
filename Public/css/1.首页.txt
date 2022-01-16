@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML >
+<HEAD>
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<a name="face">  </a>
+
+<BODY LANG="zh-CN" DIR="LTR" bgcolor= #697c85>
+    <div style="width:auto; height:auto;background-color:#697c85;font-size: 16pt;color:#697c85 " class="TextFontSize">
+        <a href="#back" >显示卡片背面</a>
+        <div style="width:auto; height:auto;background-color:#697c85;font-size: 16pt " class="TextFontSize">
+<font  color="yellow">myFaceString</font>
+
+<P STYLE="margin-bottom: 0cm; line-height: 100%"><IMG SRC="face.JPG" NAME="圖形1" ALIGN=LEFT WIDTH=100%  BORDER=0><BR CLEAR=LEFT><BR>
+</P>
+<P ALIGN=CENTER STYLE="margin-bottom: 0cm; line-height: 100%"><BR>
+</P>
+</BODY>
+<a name="back">  </a>
+
+<BODY LANG="zh-CN" DIR="LTR" bgcolor="#697c85">
+    <div style="width:auto; height:auto;background-color:#697c85;font-size: 16pt " class="TextFontSize">
+        <a href="#face">显示卡片正面</a>
+        <div style="width:auto; height:auto;background-color:#697c85;font-size: 16pt " class="TextFontSize">
+        <font  color="yellow">myBackString</font>
+        
+        <P STYLE="margin-bottom: 0cm; line-height: 100%"><IMG SRC="back.JPG" NAME="圖形1" ALIGN=LEFT WIDTH=100%  BORDER=0><BR CLEAR=LEFT><BR>
+            </P>
+            <P ALIGN=CENTER STYLE="margin-bottom: 0cm; line-height: 100%"><BR>
+            </P>
+</BODY>
+</HTML>

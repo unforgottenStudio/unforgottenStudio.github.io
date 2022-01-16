@@ -1,0 +1,374 @@
+﻿
+
+/* general styling */
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body {
+	height: auto;
+	background: #FFF;
+	color: #1a3804;
+	font-family:宋体;
+	font-size: 9pt;
+	background-image:url(../images/Publish3/BodyBG.gif)
+}
+table
+{
+	width:100%;
+}
+
+
+/* the hyperlinks */
+a {
+	color: #458023;
+	text-decoration: underline;
+}
+a:hover {
+	color: #265b00;
+}
+
+/*模拟链接风格20070728*/
+.EmuHPLink
+{
+	color: #458023;
+}
+
+/**以下是李小东加入的内容**/
+
+
+
+/*-----------1.总体设计风格(无)-------------*/
+
+/*----------------2.桌面布局--------------------*/
+
+/*2.1 第一张画布的背景设置*/
+.TopCanvas
+{
+ background-color: #d5e2ce;
+}
+
+/*2.3 Dsk_SubTitle 显示区中title的风格 */
+.Dsk_SubTitle1
+{
+	background-color: #b4cca6;
+	color: Black;
+}
+
+
+/*2.4 Dsk_SubBody 显示区中Body的风格 */
+.Dsk_SubBody1
+{
+	background-color: #f6f9f4;
+	color: Black;
+}
+
+/*2.5 Dsk_SubBodyDark 显示区中Body的风格 */
+.Dsk_SubBodyDark1
+{
+	background-color: #eef3eb;
+	color: Black;
+}
+
+/*2.10 定义 提示或警示的显示风格*/
+.SubPrompt
+{
+	color: #992917;
+}
+
+
+
+/*2.12 定义鼠标选中颜色*/
+.SubBGSelect
+{
+	background-color:#b4cca6;
+}
+
+/*2.13奇数行的背景色*/
+.SubOddRow
+{
+	background-color:#f6f9f4;
+}
+
+/*2.14偶数行的背景色*/
+.SubEvenRow
+{
+	background-color:#eef3eb;
+}
+
+/*2.15 input的风格*/
+.InputStyle
+{
+	border-color:#292929;
+}
+
+/*2.17page使用背景色*/
+.SubPageStyle
+{
+	background-color: #b4cca6;
+}
+
+
+/*2.19定义bulletin的显示风格*/
+.BulletinStatStyle
+{
+	background-color:#a7c398;
+}
+.BulletinTileStyle
+{
+	background-color: #c9dbc0;
+}
+.BulletinBodyStyle
+{
+	background-color: #f6f9f4;
+}
+
+/*2.20日记.文章.图片专辑列表部分的背景色*/
+.ListAllConStyle
+{ 
+	background-color: #c9dbc0;
+}
+.ListAllConTitleStyle
+{
+	background-color: #b4cca6;
+	color: Black;
+}
+.ContentStyle
+{
+	background-color:  #f6f9f4;
+	color: Black;
+}
+
+/************李小东加入布局完毕*************/
+
+/* site specific styling */
+
+
+/* the container centers the page */
+#container {
+	height: auto;
+	margin:0px auto;
+	text-align:center;
+}	
+
+
+/* the topbar that contains the most upper links */
+#topbar {
+	width: 960px;
+	/*height: 40px;*/
+	line-height: 24px;
+	vertical-align: middle;
+	text-align: right;
+	background:  url(../images/Publish3/bodyTop.jpg);
+	background-repeat:repeat-x;
+}
+
+/* the links in the topbar are an unordered list, formatted here */
+	#topbar ul {
+		float: right;
+	}
+	#topbar li {
+		list-style: none;
+		display: block;
+		width: auto;
+		float: left;
+	}
+	#topbar a {
+		text-decoration: none;
+		display: block;
+		padding: 0 10px 0 10px;
+		
+		
+		text-transform: uppercase;
+	}
+	#topbar a:hover {
+		text-decoration:underline
+	}
+
+
+/* the header that contains the big image */
+#header {
+	width: 960px;
+	height: 102px;
+	background: #458023 url(../images/Publish3/Logo.jpg) top left no-repeat;
+	position: relative;
+}
+
+/* the big title text in the header */
+	#header h1 {		
+		font-size: 30px;
+		font-weight: 100;
+		letter-spacing: -1px;
+		color: #FFF;
+		position: absolute;
+		top: 60px;
+		left: 20px;
+	}
+
+/* the navigationbar in the header */
+#navbar 
+{
+	clear: both;
+	width: 960px;
+	height:20px;
+	background: #458023 url(../images/Publish3/NavBarBG.jpg) top left;
+	background-repeat:repeat-x;
+	position: relative;
+}
+#navbar_Content
+{
+	position: absolute;
+	
+	right: 6px;
+	
+}
+
+
+/* the links in the navigationbar are an unordered list */
+	#navbar ul {
+	}
+	
+	#navbar li {
+		list-style: none;
+		display: block;
+		width: auto;
+		float: left;
+	}
+	#navbar a {
+		text-decoration: none;
+		display: block;
+		padding: 4px 10px 4px 10px;
+		
+		
+		text-transform: uppercase;
+	}
+	#navbar a:hover {
+		text-decoration:underline
+	}
+	
+/* the core contains all the site contents */
+#core {
+	width: 960px;
+	height: auto;
+	margin-top: 5px;
+	background-color:#fff;
+	/*background: #FFF url(../images/Publish3/coreback.gif) top left repeat-y;*/
+}
+
+/* the coreleft contains the left part of the core */
+#coreleft {
+	width: 220px;
+	height: auto;
+	background: #deebd2 url(../images/Publish3/LeftGB.jpg);
+	background-repeat:repeat;
+	float: left;
+	overflow:hidden;
+	text-align:left;
+}
+	#coreleft li {
+		display: block;
+		height:auto;	
+		margin: 0px;
+	}
+
+	
+
+/* the corecenter contains the center part of the core */
+#corecenter {
+	width: 740px;
+	/*margin-left:5px;*/
+	height: auto;
+	float: left;
+	text-align:left;
+}
+	#corecenter ul {
+	}
+	#corecenter a {
+		display: block;
+		height: auto;
+		padding: 0px;		
+		color: #265b00;
+		text-decoration: none;		
+		font-size: 12px;
+		border: 0;
+	}
+	#corecenter table
+	{
+		width:100%;	
+	    /*border:solid 1px #265b00;*/
+	}
+
+    #corecenter table thead td
+	{
+		background-color:#D9EECA;
+		height:24px;
+		font-size:14px;
+		font-weight:bold;
+		color:Black;
+		padding-left:5px;
+
+	}
+
+	#corecenter table tbody td 
+	{
+		 white-space:nowrap;
+		 padding-left:8px;
+	}
+	#corecenter table tfoot td 
+	{
+		 text-align:right;
+	}
+
+
+/* the footer contains all copyright info etcetera */
+#footer {
+	clear: both;
+	width: 960px;
+	height: 30px;
+	background: #458023;
+	line-height: 30px;
+	vertical-align: middle;
+	text-align: right;
+	/*background: #deebd2 url(../images/Publish3/LeftBG.jpg);*/
+	font-size: 10px;
+	color:Black;
+}
+	#footer p {
+		color:Black;
+		padding-right: 20px;
+	}
+	#footer a {
+		color:Black;
+	}
+
+
+
+/*-----------------------------------------------------------------*/
+table.Bulletin {
+	width:100%;	 
+	
+}
+table.Bulletin thead {
+		
+}
+table.Bulletin thead td{	    
+		padding: 20px 4px 0 4px;		
+		font-size: 18px;
+		margin: 0; 
+		text-align:center;
+		
+}
+
+table.Bulletin tfoot {
+	text-align: right;
+	font-size: 9pt;
+	font-weight: normal;
+}
+table.Bulletin tfoot td{	    
+     
+}
+table.Bulletin tbody td{   
+    
+     height:100px;
+}
+/*-----------------------------------------------------------------*/

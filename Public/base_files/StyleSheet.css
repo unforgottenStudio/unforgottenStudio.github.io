@@ -1,0 +1,110 @@
+﻿body {
+font-size:12px;	
+}
+a {
+	text-decoration:none;
+}
+
+a:hover
+{
+	color: #ff0000;
+}
+/**/
+#dvHeader {
+	width: 100%;
+	margin:0 auto;
+	background-color:#0a6cce;
+	
+}
+#dvBody {
+	width: 100%;
+	margin:0 auto;
+	
+}
+
+/**/
+table
+{
+
+	font-size:12px;	
+}
+
+
+
+
+/*---------快捷栏的样式-----------*/
+table.ShortCut
+{
+	font-size:12px;	
+	 width:100%;
+	 vertical-align:top;
+	
+	
+}
+
+
+table.ShortCut thead {
+	text-align: left;
+	font-size:15px;	
+	
+}
+table.ShortCut thead td{	    
+      border: 1px solid #EBEAEE; 
+      height:1px;     
+}
+table.ShortCut tfoot td{	    
+        
+}
+table.ShortCut tbody td
+{
+	vertical-align:top;	    
+    
+}
+table.ShortCut tbody td span{	    
+     height:20px;
+     
+}
+table.ShortCut tfoot {
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+	
+}
+
+
+/*-----------------------------------------------------------------*/
+
+
+.tree
+{
+ text-align:left;
+	
+}
+.tree div
+{
+  
+   width:10px;
+}
+.tree a
+{
+   width:10px;
+   white-space:nowrap;
+}
+
+/*显示正文的字体和行距离*/
+.TextFontSize
+{
+	font-family: 宋体;
+	font-size: 10.5pt;
+	line-height: 24px;
+}
+
+/*定义PopWindows按钮的风格*/
+.ButtonPopWin
+{
+	color: navy;
+}
+.ButtonPopWinOver
+{
+	color: #ff0000;
+}
